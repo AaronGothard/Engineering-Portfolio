@@ -8,7 +8,7 @@ header:
   actions:
     - label: "My Projects"
       url: "/portfolio/"
-excerpt: "Aaron Gothard is a budding engineer with a passion for fabrication. His talents lie in design, analysis, and communication of innovative ideas"
+excerpt: "Aaron Gothard is a budding engineer with a passion for fabrication. His talents lie in the design, analysis, and communication of innovative ideas"
 feature_row:
   - image_path: assets/img/CNC-Mill-Thumbnail.jpg
     alt: "CNC Mill"
