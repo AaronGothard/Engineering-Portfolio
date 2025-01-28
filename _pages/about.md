@@ -1,31 +1,31 @@
 ---
 
-title: "About David Florian"
+title: "About Aaron Gothard"
 
 ---
 
 ## Education
 
-David prides himself on his diverse skill set. His most prominent fields of expertise are additive manufacturing (i.e., 3D printing) and biotechnology. 
+Aaron is an engineer who learns quickly and prides himself on his ability to adapt to new situations. 
 
-* University of Virginia
-  * BS Mathematics
-  * BS Biomedical Engineering
 * Vanderbilt University
-  * PhD Biomedical Engineering
+  * BE Mechanical Engineering
+  * James A. Clark Scholar
+  * Wond'ry Makertech
+
 
 ## Technical Skills
 
-David can operate a number of different computer controlled (CNC) fabrication tools to turn 3D models into real-life parts. David has experience with the following additive manufacturing technologies:
+Aaron has extensive experience in 3D modelling and fabrication, as well as engineering analysis and many more fields, such as:
 
-* Fused Filament Fabrication (FFF)
-* Stereolithography (SLA)
-* Selective Laser Sintering (SLS)
-* 3D Inkjet Printing
-* Bioplotting
+* MIG and TIG Welding
+* Mill and Lathe Operation
+* SolidWorks, CATIA V5, AutoCAD
+* ANSYS Workshop, Fluent
+* Machine Analysis and Manufacturing Design
 
-## Press 
+## Media
 
-The new Digital Fabrication Minor was covered in the [Vanderbilt Hustler](https://vanderbilthustler.com/2022/11/09/digital-fabrication-minor-introduced-for-2022-23-academic-year/).
+Aaron is an inventor on one pending utility patent (see <a href="https://aarongothard.com/portfolio/BoneBiopsy/">Bone Biopsy Phantom</a>) as well as a published author (<a href="https://jcannabisresearch.biomedcentral.com/articles/10.1186/s42238-021-00092-y">DOI: 10.1186/s42238-021-00092-y</a>). His background in statistics is an unusual tool in an engineer's toolbelt, and it proves useful in many situations where analytical thought is required
 
-<img src="/assets/img/David_Headshot_web2.jpg" alt="David Florian" style="width:200px;"/>
+

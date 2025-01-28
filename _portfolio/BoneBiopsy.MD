@@ -25,4 +25,3 @@ The innermost layer is the soft, medullary bone. This is a frustrum made in a si
 The benefits of this training medium cannot be overstated. It can rest on any old shelf without special care, it can simulate all conditions of bone, and it can be reused and repurposed as needed. The soft tissue can be replaced if it is worn, and the bone can be repoured and replaced once it is swiss-cheese. It would be cheap to reproduce and easy to make in-house.
 
 This project is currently in the process of recieving a utility patent, US Patent application no. 18/309,362. I am listed as an inventor, which is quite exciting though my involvement in this project was mostly the design and fabrication of the model, so the status of the patent is no longer in my hands.
-
