@@ -1,12 +1,11 @@
 ---
 title: "Extrusion Blow Molding Machines"
-excerpt: "2nstalling 2 Manufacturing lines for Graham Pachaging Company"
+excerpt: "Installing 2 Manufacturing lines for Graham Pachaging Company"
 header:
   image: /assets/img/GPCHotEnd.jpg
   teaser: /assets/img/GrahamOutput.jpg
 gallery:
   - image_path: assets/img/Graham1.jpg
-  - image_path: assets/img/Graham2.jpg
   - image_path: assets/img/Graham3.jpg
   - image_path: assets/img/Graham4.jpg
    
