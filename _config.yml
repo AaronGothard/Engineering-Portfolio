@@ -108,8 +108,7 @@ author:
       url: "https://www.instagram.com/aaron.m.gothard/"
     - label: "Resume"
       icon: "fas fa-fw fa-file-alt"
-      url: "Aaron Gothard Resume 4-7-25.pdf"
-
+      url: "/assets/Aaron Gothard Resume 4-7-25.pdf"
 
 # Site Footer
 footer:
@@ -122,8 +121,7 @@ footer:
       url: "https://www.instagram.com/aaron.m.gothard/"
     - label: "Resume"
       icon: "fas fa-fw fa-file-alt"
-      url: "Aaron Gothard Resume 4-7-25.pdf"  
-
+      url: "/assets/Aaron Gothard Resume 4-7-25.pdf"
 
 # Reading Files
 include:
