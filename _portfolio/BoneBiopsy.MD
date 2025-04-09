@@ -3,7 +3,7 @@ title: "Bone Biopsy Phantom"
 excerpt: "Training media for nurses to practice performing bone biopsies"
 header:
   image: /assets/img/bonebiopsyreal.jpg
-  teaser: /assets/img/bone_render_labelled.jpg
+  teaser: /assets/img/Bone_render_labelled.jpg
 ---
 ### The Wond'ry · Summer 2022 - Fall 2023
 
