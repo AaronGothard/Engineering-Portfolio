@@ -20,7 +20,7 @@ feature_row:
     alt: "Bone Biopsy Phantom"
     title: "Bone Biopsy Phantom"
     excerpt: "Training media for performing bone biopsies"
-  - image_path: assets/img/bonebiopsyreal.jpg
+  - image_path: assets/img/Graham1.jpg
     # url: "/portfolio/GPC"
     alt: "A Graham Packaging Bottle"
     title: "Extrusion Blow Molders"
