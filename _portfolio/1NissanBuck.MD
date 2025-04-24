@@ -72,11 +72,13 @@ Since I front-loaded my degree requirements, I had the lightest semester out of 
 
 ## Impact
 
-This project gave Nissan a valuable physical asset for iterative interior design testing and informed early vehicle development decisions with real user data. It also gave me hands-on experience designing human-focused systems and collaborating with an industry partner on a real-world engineering challenge.
+This project gave Nissan a valuable physical asset for iterative interior design testing and informed early vehicle development decisions with real user data. It also gave me hands-on experience designing human-focused systems and collaborating with an industry partner on a real-world engineering challenge. See what the the Wond'ry had to say about this project <a href="https://www.linkedin.com/posts/thewondry_vugivingday-thewondry-studentinnovation-ugcPost-7316217261315227649-M_9d?utm_source=share&utm_medium=member_desktop&rcm=ACoAADZhIbwBYnidTBF8g0tJkQIXkYWlvI2qKNA"> here</a>
 
 ## Reflection
 
-This project was one of the most meaningful parts of my undergraduate experience, career. Requiring I put in over 170 hours of work, it combined engineering fundamentals, hands-on prototyping, user research, and real industry feedback into a single, cohesive challenge. Working with Nissan pushed me to think not just as an engineer, but as a designer solving problems for real people.
+This project was one of the most meaningful parts of my undergraduate experience, career. Requiring I put in over 170 hours of work, it combined engineering fundamentals, hands-on prototyping, user research, and real industry feedback into a single, cohesive challenge. Working with Nissan pushed me to think not just as an engineer, but as a designer solving problems for real people. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_DXw8G_t55U?si=xzYaMDIArdWUt_08" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 {% include gallery %}
 
