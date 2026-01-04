@@ -1,6 +1,7 @@
 ---
 title: "Bone Biopsy Phantom"
 excerpt: "Training media for nurses to practice performing bone biopsies"
+skills: [Solitworks, Design for Manufacturing]
 header:
   image: /assets/img/bonebiopsyreal.jpg
   teaser: /assets/img/Bone_render_labelled.jpg
