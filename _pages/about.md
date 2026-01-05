@@ -40,3 +40,5 @@ When not working, I love playing basketball, watching baseball. I love reading a
 - Inventor on a pending utility patent for my work with VUMC(see <a href="https://aarongothard.com/portfolio/BoneBiopsy/">Bone Biopsy Phantom</a>)
 - Published author for a project in AP Stats in High School (<a href="https://jcannabisresearch.biomedcentral.com/articles/10.1186/s42238-021-00092-y">DOI: 10.1186/s42238-021-00092-y</a>)
 - Academic All-Ohioan, High School Baseball
+
+{% include cta-build.html %}

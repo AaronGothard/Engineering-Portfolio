@@ -200,6 +200,9 @@ search: false
   background-color: #b1bdce; /* precision gray */
 }
 
+.skill-pill[data-skill="designandanalysis"] {
+  background-color: #ca9edf; /* precision gray */
+}
 /* =====================================================
    Fallback (unknown skills)
    ===================================================== */
@@ -382,3 +385,37 @@ search: false
   gap: 1rem;
   flex-wrap: wrap;
 }
+
+.cta-email,
+.cta-subtext {
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin-top: 0.5rem;
+}
+
+/* =====================================================
+   SPLASH PAGE: REMOVE EXCESS BOTTOM GAP
+   ===================================================== */
+
+/* Remove bottom padding added by splash layout */
+.layout--splash .page__content {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* Remove extra spacing after last section */
+.layout--splash .page__content > *:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* Tighten CTA spacing specifically on home */
+.layout--splash .home-cta {
+  margin-bottom: 1.5rem !important;
+}
+
+/* Remove stacked footer spacing */
+.layout--splash .page__footer {
+  margin-top: 0 !important;
+  padding-top: 2rem;
+}
+

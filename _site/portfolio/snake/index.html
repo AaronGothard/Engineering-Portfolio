@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Bone Biopsy Phantom - Aaron Gothard</title>
-<meta name="description" content="Cast, multilayer training media for nurses to practice performing bone biopsies without need for human specimens">
+<!-- begin _includes/seo.html --><title>Snake in Python - Aaron Gothard</title>
+<meta name="description" content="A playable arcade version of snake, built from scratch on an arduino in high school">
 
 
   <meta name="author" content="Aaron Gothard">
@@ -22,15 +22,15 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Aaron Gothard">
-<meta property="og:title" content="Bone Biopsy Phantom">
-<meta property="og:url" content="http://localhost:4000/portfolio/BoneBiopsy/">
+<meta property="og:title" content="Snake in Python">
+<meta property="og:url" content="http://localhost:4000/portfolio/snake/">
 
 
-  <meta property="og:description" content="Cast, multilayer training media for nurses to practice performing bone biopsies without need for human specimens">
+  <meta property="og:description" content="A playable arcade version of snake, built from scratch on an arduino in high school">
 
 
 
-  <meta property="og:image" content="http://localhost:4000/assets/img/bonebiopsyreal.jpg">
+  <meta property="og:image" content="http://localhost:4000/assets/img/snake.png">
 
 
 
@@ -47,7 +47,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/portfolio/BoneBiopsy/">
+<link rel="canonical" href="http://localhost:4000/portfolio/snake/">
 
 
 
@@ -159,7 +159,7 @@
   style=" background-image: url('');"
 >
   
-    <img src="/assets/img/bonebiopsyreal.jpg" alt="Bone Biopsy Phantom" class="page__hero-image">
+    <img src="/assets/img/snake.png" alt="Snake in Python" class="page__hero-image">
   
   
 </div>
@@ -173,15 +173,15 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Bone Biopsy Phantom">
-    <meta itemprop="description" content="Cast, multilayer training media for nurses to practice performing bone biopsies without need for human specimens">
+    <meta itemprop="headline" content="Snake in Python">
+    <meta itemprop="description" content="A playable arcade version of snake, built from scratch on an arduino in high school">
     
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Bone Biopsy Phantom
+          <h1 id="page-title" class="page__title" itemprop="headline">Snake in Python
 </h1>
           
 
@@ -191,20 +191,28 @@
 
       <section class="page__content" itemprop="text">
         
-        <h3 id="the-wondry--summer-2022---fall-2023">The Wond’ry · Summer 2022 - Fall 2023</h3>
+        <h2 id="east-canton-high-school--october-2021">East Canton High School · October, 2021</h2>
 
-<h2 id="overview">Overview</h2>
-<p>Performing bone biopsies is hard. You must blindly drill through hard outer bone while expertly feeling the resistance in the drill. Once you feel you’ve made it through the hard cortical bone, you must begin taking a core sample of the inner medullary bone. If you miss that feedback and drill too deep then you must restart, causing unnecessary pain and inconvenience to the patient. Typically, training someone to perform a biopsy requires the use of cadavers or willing participants, which is cumbersome and requires unnecessary resources.</p>
+<p>As a side project while I was ahead of schedule in my Amazon Future Engineer program, I used some of the spare hardware (an 8x8 lcd matrix and a joystick) to make the game snake in python.</p>
 
-<h2 id="design-and-fabrication">Design and Fabrication</h2>
-<p>In this project, in collaboration with VUMC’s Dr. Nick Chadwick, we made a trilayer phantom leg bone with a variable bone thicknesses. The top layer was a layer of soft silicone meant to mimic the soft tissue found in the thigh. This presented our first challenge, the stiffness of the soft tissue is variable along the thickness of the leg. The inner portion is dense with muscules, but the outer portion is fattier and softer. When deciding on a silicone, we picked one with a hardness that is an average between the two.</p>
+<p>I began this journey by getting to know the 8x8 LCD as well as how it interfaces with the arduino. The matrix accepts an array of 8, 8 bit integers. Each of these bits represents an LED that is either turned on or off depending on the value of the array. This being my first experience with binary I had a few hurdles to overcome. I began by making a program that displayed text that scrolls across the screen. This utilized a library of arrays for each letter and number, tediously hardcoded by yours truly. After learning how the display operated and getting the display working, I moved on to the joystick which was much simpler. I separated the input into 3 different values: left/right, up/down, and pushdown button input.</p>
 
-<p>The innermost layer is the soft, medullary bone. This is a frustrum made in a silicone mold from a high density expanding foam. It tapers between two diameters, corresponding to the thinnest and thickest medullary bones a human would have. Once the foam is molded, it is inserted into a 2 part mold. The outer, cortical bone is an epoxy that is poured around the medullary bone. This epoxy has a durometer value that is comprable to the real thing (a bit harder than real life, but this is better for training purposes). Once this epoxy hardens, the bone nests perfectly within the soft tissue layer.</p>
+<p>Now that the hardware was all good to go, I set out to create the game snake. The overall structure of it is pretty simple:</p>
+<ol>
+  <li>Read the joystick values to choose the snake’s velocity in each axis</li>
+  <li>Add the velocity to the head’s position (provided the velocity is in a valid direction)</li>
+  <li>Checked to see if it was on a point of interest (apple, body, boundary point)</li>
+  <li>If it is an apple: Add one to the length of the snake and re-assign a random position for the apple</li>
+  <li>Write the current snake and apple pixels to the matrix display</li>
+</ol>
 
-<h2 id="results">Results</h2>
-<p>The benefits of this training medium cannot be overstated. It can rest on any old shelf without special care, it can simulate all conditions of bone, and it can be reused and repurposed as needed. The soft tissue can be replaced if it is worn, and the bone can be repoured and replaced once it is swiss-cheese. It would be cheap to reproduce and easy to make in-house.</p>
+<p>After getting this functional and properly working, I decided to 3D model housings for the display and the joystick which I then printed on our classroom’s Ender 3 3D Printer.</p>
 
-<p>This project is currently in the process of recieving a utility patent, US Patent application no. 18/309,362. I am listed as an inventor, which is quite exciting!</p>
+<p>A full demonstration is shown below, and the source code is hosted on my github <a href="https://github.com/AaronGothard/Snake-Python/blob/main/ArduinoSnake.py">here</a></p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WlHp1nSYgAQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" autoplay="" muted=""></iframe>
+
+<p>Note: Unfortunately I had to set the frame rate intentionally low here. Though I can clearly program the game snake, I was horrendous at actually <em>playing</em> the game.</p>
 
         
       </section>
@@ -223,23 +231,22 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=Bone+Biopsy+Phantom%20http%3A%2F%2Flocalhost%3A4000%2Fportfolio%2FBoneBiopsy%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=Snake+in+Python%20http%3A%2F%2Flocalhost%3A4000%2Fportfolio%2Fsnake%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fportfolio%2FBoneBiopsy%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fportfolio%2Fsnake%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fportfolio%2FBoneBiopsy%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fportfolio%2Fsnake%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="/portfolio/1NissanBuck/" class="pagination--pager" title="Reconfigurable Vehicle Buck
+      <a href="/portfolio/Semaphore/" class="pagination--pager" title="Semaphore Translator
 ">Previous</a>
     
     
-      <a href="/portfolio/Car/" class="pagination--pager" title="Laser-Cut Car
-">Next</a>
+      <a href="#" class="pagination--pager disabled">Next</a>
     
   </nav>
 

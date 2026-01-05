@@ -4,7 +4,7 @@ excerpt: "A full-scale, reconfigurable car interior designed for Nissan to evalu
 header:
   image: /assets/img/nissanbuck_testing.jpg
   teaser: /assets/img/nissanbuck_render.png
-skills: [Solidworks, Hands-On, Machining]
+skills: [Solidworks, Hands-On, Machining, Ansys]
 gallery:
   - url: /assets/img/nissanbuck_interior.jpg
     image_path: /assets/img/nissanbuck_interior.jpg

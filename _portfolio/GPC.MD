@@ -10,6 +10,7 @@ gallery:
   - image_path: assets/img/Graham4.jpg
 skills: 
   - "Hands-On"
+  - "Design and Analysis"
    
 ---
 ### Graham Packaging Company · Summer 2023
