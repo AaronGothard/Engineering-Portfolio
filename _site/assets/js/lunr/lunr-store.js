@@ -11,8 +11,8 @@ var store = [{
         "url": "/portfolio/BoneBiopsy/",
         "teaser": "/assets/img/Bone_render_labelled.jpg"
       },{
-        "title": "Extrusion Blow Molding Machines",
-        "excerpt":"Graham Packaging Company · Summer 2023 Overview Plastic bottles are everywhere, but they have to start somewhere. Typically, they find their start at an extrusion blow molding machine. This is a machine that blows compressed air through a hollow parison of hot plastic until it expands into the shape of...","categories": [],
+        "title": "Extrusion Blow Molding",
+        "excerpt":"Graham Packaging Company · Summer 2023 Overview Plastic bottles are everywhere, but they have to start somewhere. Typically, they find their start at an extrusion blow molding machine not unlike the one pictured above. This machine blows compressed air through a hollow parison of hot plastic until it expands into...","categories": [],
         "tags": [],
         "url": "/portfolio/GPC/",
         "teaser": "/assets/img/GrahamOutput.jpg"

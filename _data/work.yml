@@ -1,0 +1,35 @@
+- role: Manufacturing Intern
+  company: Graham Packaging Company
+  location: Bowling Green, KY
+  logo: /assets/img/gpclogo.jpg
+  start: May 2023
+  end: Aug 2023
+  highlights:
+    - Installed and troubleshot 2 new blow-molding lines for manufacturing
+    - Performed bottle profiling and qualification using GMP
+    - Collaborated with industrial engineers to optimize production workflows
+    - Assembled technical documents, interface control sheets, and value stream maps for manufacturing processes
+
+- role: Makerspace Technician
+  company: The Wond'ry at Vanderbilt University
+  location: Nashville, TN
+  logo: /assets/img/wondrylogo.png
+  start: May 2022
+  end: May 2025
+  highlights:
+    - Designed parts and molds for training VUMC nurses
+    - Facilitated personal and professional projects for Vanderbilt Faculty and 400+ students
+    - Mentored and advised senior and student design teams through the design process
+    - Orchestrated workshops to teach design principles, rapid prototyping, laser cutting & 3D printing
+
+- role: Junior Design and Manufacturing Engineer
+  company: Trimteck LLC
+  location: Coral Springs, FL
+  logo: /assets/img/trimtecklogo.jpg
+  start: July 2025
+  end: Present
+  highlights:
+    - Wrote SOPs for manufacturing processes to ensure compliance to ASME B16.34, PED 2014/68/EU, and other industry standards
+    - Made and submitted application for Module H certification under the Pressure Equipment Directive (PED) 2014/68/EU (Pending)
+    - Designed Severe Service valves with multi-stage trims and advanced flow characteristics for high-pressure applications
+    - Led company-wide research to eliminate failure modes and improve product reliability

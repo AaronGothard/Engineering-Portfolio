@@ -1,9 +1,10 @@
 ---
 title: "Semaphore Translator"
-excerpt: "A LabVIEW based translator for alphabetic flag codes"
+excerpt: "A LabVIEW based translator for interpreting nautical flag codes. This was developed over a 2-week sprint in instrumentation lab"
 header:
   image: /assets/img/flags.jpeg
   teaser: /assets/img/semaphore_example.jpg
+skills: ["LABVIEW", "Solidworks"]
 ---
 ### Vanderbilt University · Spring 2023
 Aaron Gothard, Saksham Sharma, Julia Quilici
@@ -17,13 +18,13 @@ By numbering each arm position 1-7 and separating flags by their independent pos
 
 ## Hardware
 
--   DAQ Board
--   Accelerometers(2)
+-   Data Acquisition (DAQ) Board
+-   Accelerometers
 -   Custom accellerometer wrist mounts
 -   3v Power Supply
 
 ![mount](/assets/img/wristempty.png)
-*The wrist mount for our accelerometers with velcro straps sewn in*
+*The wrist mount for our accelerometers. Designed, 3D-printed and sewn by yours truly*
 
 ## Code Overview
 

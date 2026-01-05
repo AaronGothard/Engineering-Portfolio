@@ -1,0 +1,40 @@
+<section class="work-timeline">
+  <h2>Work Experience</h2>
+
+  <ol class="timeline">
+    {% for job in site.data.work reversed %}
+      <li class="timeline-item">
+        <span class="timeline-dot"></span>
+
+        <div class="timeline-content">
+          <div class="timeline-header">
+            {% if job.logo %}
+              <img
+                class="company-logo"
+                src="{{ job.logo }}"
+                alt="{{ job.company }} logo">
+            {% endif %}
+
+            <div>
+              <h3>{{ job.role }}</h3>
+
+              <div class="timeline-meta">
+                <span>{{ job.company }} &bull; {{ job.location }}</span><br>
+                <span>{{ job.start }} &ndash; {{ job.end }}</span>
+              </div>
+            </div>
+          </div>
+
+          {% if job.highlights %}
+            <ul>
+              {% for item in job.highlights %}
+                <li>{{ item }}</li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </div>
+      </li>
+    {% endfor %}
+  </ol>
+</section>
+

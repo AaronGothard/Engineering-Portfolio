@@ -1,10 +1,10 @@
 ---
 title: "Bone Biopsy Phantom"
-excerpt: "Training media for nurses to practice performing bone biopsies"
-skills: [Solitworks, Design for Manufacturing]
+excerpt: "Cast, multilayer training media for nurses to practice performing bone biopsies without need for human specimens"
 header:
   image: /assets/img/bonebiopsyreal.jpg
   teaser: /assets/img/Bone_render_labelled.jpg
+skills: ["Fusion360", "DFM"]
 ---
 ### The Wond'ry · Summer 2022 - Fall 2023
 

@@ -1,9 +1,10 @@
 ---
 title: "Reconfigurable Vehicle Buck"
-excerpt: "A full-scale, reconfigurable model designed for Nissan to evaluate interior layout concepts for future vehicle platforms."
+excerpt: "A full-scale, reconfigurable car interior designed for Nissan to evaluate interior layout concepts for future vehicle platforms."
 header:
   image: /assets/img/nissanbuck_testing.jpg
   teaser: /assets/img/nissanbuck_render.png
+skills: [Solidworks, Hands-On, Machining]
 gallery:
   - url: /assets/img/nissanbuck_interior.jpg
     image_path: /assets/img/nissanbuck_interior.jpg
@@ -49,10 +50,10 @@ In total, there needed to be 11 variable dimensions:
 With so many points of articulation, we were worried that the frame wouldn't be rigid enough for consumers to sit in, so Nissan decided that the base needs to hold a load of 400kg excluding its own weight. Additionally, they requested that the frame must be made from 8020 aluminum extrusions and include casters for ease of use.
 
 ## My Role
-Since I front-loaded my degree requirements, I had the lightest semester out of my group. As such I took on a heavier workload when it came to bringing Nissan's dream into reality. 
+Since I front-loaded my degree requirements, I had the lightest semester out of the group. As such I took on a heavier workload when it came to bringing Nissan's dream into reality. 
 
 - **Concept Development**  
-  Led early brainstorming for each of the vital joints and sourced parts for each. Most of the joints came from the 8020 website, as it offered off-the shelf operability for some of the simpler parts
+  Led early brainstorming for each of the vital joints and sourced or machined parts for each
 
 - **3D Design**  
   Designed the assembly in SolidWorks and validated geometric design criteria for each requirement. Ran simple load analysis to validate load requirements. Designed custom brackets for fitment and telescoping joints for above and below waistline pillars
@@ -76,7 +77,7 @@ This project gave Nissan a valuable physical asset for iterative interior design
 
 ## Reflection
 
-This project was one of the most meaningful parts of my undergraduate experience, career. Requiring I put in over 170 hours of work, it combined engineering fundamentals, hands-on prototyping, user research, and real industry feedback into a single, cohesive challenge. Working with Nissan pushed me to think not just as an engineer, but as a designer solving problems for real people. 
+This project was one of the most meaningful parts of my undergraduate experience, career. Requiring me to put in well over 200 hours of work, it combined engineering fundamentals, hands-on prototyping, user research, and real industry feedback into a single, cohesive challenge. Working with Nissan pushed me to think not just as an engineer, but as a designer solving problems for real people. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_DXw8G_t55U?si=xzYaMDIArdWUt_08" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

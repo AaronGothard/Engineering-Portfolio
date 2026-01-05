@@ -7,3 +7,378 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+/* =====================================================
+   Portfolio cards – refined Minimal Mistakes default
+   ===================================================== */
+
+.archive__items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.archive__item-teaser img {
+  max-height: 160px;
+  object-fit: cover;
+}
+
+/* Remove list-style spacing */
+.archive__items .list__item {
+  margin: 0;
+}
+
+.project-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 0.9rem 0.95rem; /* tighter horizontal padding */
+  background-color: #ffffff;
+  box-sizing: border-box;
+  height: 100%;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.project-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* Remove ugly default link styling on card titles */
+.project-card .archive__item-title a {
+  text-decoration: none;
+  color: var(--mm-link-color);
+}
+
+.project-card .archive__item-title a:hover {
+  text-decoration: underline;
+}
+
+.project-card .archive__item-excerpt {
+  flex-grow: 1;
+}
+
+
+/* =====================================================
+   Skills – clean, color-coded pills
+   ===================================================== */
+
+.project-skills {
+  margin-top: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+
+.skill-pill {
+  font-size: 0.65rem;
+  font-weight: 500;
+  padding: 0.28rem 0.55rem;
+  border-radius: 999px;
+  color: #ffffff;
+  line-height: 1.1;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Improve spacing for collection grid */
+.entries-grid {
+  gap: 1.5rem;
+}
+
+.archive__item-teaser img {
+  border-radius: 8px;
+}
+
+
+/* =====================================================
+   Portfolio grid – Minimal Mistakes (collections)
+   ===================================================== */
+
+/* Target only the portfolio archive page */
+.layout--archive .entries-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Remove default list spacing */
+.layout--archive .entries-list .list__item {
+  margin-bottom: 0;
+}
+
+
+/* =====================================================
+   Skill color mapping (consistent across cards)
+   ===================================================== */
+
+/* =====================================================
+   Skill pill base (pastel, readable)
+   ===================================================== */
+
+.skill-pill {
+  font-size: 0.65rem;
+  font-weight: 600;
+  padding: 0.3rem 0.6rem;
+  border-radius: 999px;
+  line-height: 1;
+  white-space: nowrap;
+  color: #1f2937; /* dark slate text */
+}
+
+/* =====================================================
+   Manufacturing / Hands-on
+   ===================================================== */
+
+.skill-pill[data-skill="welding"] {
+  background-color: #fde68a; /* warm amber */
+}
+
+.skill-pill[data-skill="machining"] {
+  background-color: #e5e7eb; /* neutral steel */
+}
+
+.skill-pill[data-skill="handson"] {
+  background-color: #dfc5c6; /* precision gray */
+}
+
+/* =====================================================
+   Programming / CS
+   ===================================================== */
+
+.skill-pill[data-skill="python"] {
+  background-color: #dbeafe; /* python blue (pastel) */
+}
+
+.skill-pill[data-skill="matlab"] {
+  background-color: #fee2e2; /* MATLAB red (soft) */
+}
+
+.skill-pill[data-skill="labview"] {
+  background-color: #ede9fe; /* NI purple (pastel) */
+}
+
+.skill-pill[data-skill="javascript"] {
+  background-color: #fef3c7; /* JS yellow (muted) */
+}
+
+/* =====================================================
+   Simulation / FEA
+   ===================================================== */
+
+.skill-pill[data-skill="ansys"] {
+  background-color: #fef9c3; /* Ansys yellow (pastel) */
+}
+
+/* =====================================================
+   CAD / Design
+   ===================================================== */
+
+.skill-pill[data-skill="solidworks"] {
+  background-color: #dbeafe; /* Dassault blue */
+}
+
+.skill-pill[data-skill="fusion360"] {
+  background-color: #ffedd5; /* Autodesk orange */
+}
+
+.skill-pill[data-skill="catia"] {
+  background-color: #e0f2fe; /* CATIA light cyan */
+}
+
+/* =====================================================
+   Engineering methodology
+   ===================================================== */
+
+.skill-pill[data-skill="dfm"] {
+  background-color: #bdf0cf; /* engineering green */
+}
+
+.skill-pill[data-skill="gdt"] {
+  background-color: #b1bdce; /* precision gray */
+}
+
+/* =====================================================
+   Fallback (unknown skills)
+   ===================================================== */
+
+.skill-pill:not([data-skill]) {
+  background-color: #f1f5f9;
+}
+
+/* =====================================================
+   Portfolio grid: force 3 cards per row
+   ===================================================== */
+
+/* Grid container */
+.entries-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+/* Individual cards */
+.entries-grid > .grid__item {
+  width: calc(33.333% - 1.34rem) !important;
+  max-width: none !important;
+  margin: 0 !important;
+}
+
+/* Tablet: 2 per row */
+@media (max-width: 1024px) {
+  .entries-grid > .grid__item {
+    width: calc(50% - 1rem) !important;
+  }
+}
+
+/* Mobile: 1 per row */
+@media (max-width: 640px) {
+  .entries-grid > .grid__item {
+    width: 100% !important;
+  }
+}
+
+/* =====================================================
+   CONSISTENT CARD HEIGHTS & ALIGNMENT
+   ===================================================== */
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* ---------- TITLE (force 2 lines) ---------- */
+.project-card .archive__item-title {
+  min-height: calc(1.25em * 2); /* 2 lines */
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+
+/* Prevent titles from pushing layout */
+.project-card .archive__item-title a {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+/* ---------- BODY / EXCERPT ---------- */
+.project-card .archive__item-excerpt {
+  min-height: 4.5em; /* consistent start + height */
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+/* ---------- SKILLS ALWAYS AT BOTTOM ---------- */
+.project-card .project-skills {
+  margin-top: auto;
+  padding-top: 0.5rem;
+}
+
+/* =====================================================
+   WORK TIMELINE
+   ===================================================== */
+
+.work-timeline {
+  margin: 4rem 0;
+}
+
+.timeline {
+  list-style: none;
+  padding-left: 0;
+  position: relative;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 8px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #e5e7eb;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 2.5rem;
+  position: relative;
+}
+
+.timeline-dot {
+  width: 14px;
+  height: 14px;
+  background: #3b82f6;
+  border-radius: 50%;
+  margin-right: 1.5rem;
+  margin-top: 0.3rem;
+  flex-shrink: 0;
+}
+
+.timeline-content h3 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.timeline-meta {
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+
+.timeline-content ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+/* ---------- Timeline logos ---------- */
+
+.timeline-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.company-logo {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+
+/* =====================================================
+   HOME PAGE CALL TO ACTION
+   ===================================================== */
+
+.home-cta {
+  margin: 5rem 0 2rem;
+  padding: 3rem 2rem;
+  text-align: center;
+  background: #f8fafc;
+  border-radius: 1rem;
+}
+
+.home-cta h2 {
+  margin-bottom: 0.75rem;
+}
+
+.home-cta p {
+  max-width: 520px;
+  margin: 0 auto 1.5rem;
+  color: #4b5563;
+}
+
+.cta-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}

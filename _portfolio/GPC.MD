@@ -1,23 +1,25 @@
 ---
-title: "Extrusion Blow Molding Machines"
-excerpt: "Installing 2 Manufacturing lines for Graham Pachaging Company"
+title: "Extrusion Blow Molding"
+excerpt: "Installing, Profiling, and Qualifying 2 new blow molding lines at Graham Packaging Company"
 header:
-  image: /assets/img/GPCHotEnd.jpg
+  image: /assets/img/GrahamWheel.webp
   teaser: /assets/img/GrahamOutput.jpg
 gallery:
   - image_path: assets/img/Graham1.jpg
   - image_path: assets/img/Graham3.jpg
   - image_path: assets/img/Graham4.jpg
+skills: 
+  - "Hands-On"
    
 ---
 ### Graham Packaging Company · Summer 2023
 
 ## Overview 
 
-Plastic bottles are everywhere, but they have to start somewhere. Typically, they find their start at an extrusion blow molding machine. This is a machine that blows compressed air through a hollow parison of hot plastic until it expands into the shape of the mold. At Graham Packaging Company in Bowling Green, KY, I had the opportunity to assist in the installation of two new Graham Wheels. A Graham Wheel is a style of blow molder in which a wheel of molds rotate around a center shaft, giving ample time for all the steps of molding without wasting time waiting on individual molds to free up. Each of these lines is currently capable of producing over 200,000 bottles per day.
+Plastic bottles are everywhere, but they have to start somewhere. Typically, they find their start at an extrusion blow molding machine not unlike the one pictured above. This machine blows compressed air through a hollow <a href="https://www.dictionary.com/browse/parison" target="_blank">parison</a> of hot plastic until it expands into the shape of the mold. At Graham Packaging Company in Bowling Green, KY, I had the opportunity to assist in the installation of two new Graham Wheels. A Graham Wheel is a style of blow molder in which a wheel of molds rotate around a center shaft, giving ample time for all the steps of molding without wasting time precious waiting on individual molds to free up. Each of these lines is currently capable of producing over 200,000 bottles per day.
 
 ## Installation
-Throughout this process, I worked with a team of full-time project engineers. I first worked on Value Stream and Process Mapping for the existing lines of production. This ensured I understood the underlying processes, and also gave me something to do while contractors ran necessary electrical and water lines. Once this was completed, we installed the large Graham Wheel, its extruder, and its accompanying systems of conveyors, trimmers, and labellers. This process took most of the summer to complete. Once this was completed, I helped the team of process engineers dress and hang the molds, and profile the bottles. 
+Throughout this process, I worked with a team of full-time project engineers. I first worked on Value Stream and Process Mapping for the existing lines of production. This ensured I understood the underlying processes, and also gave me something to do while contractors ran necessary electrical and water lines. Once this was completed, we installed the large Graham Wheel, its extruder, and its accompanying systems of conveyors, trimmers, and labellers. This process took most of the summer to complete. Once this was completed, I helped the team of process engineers dress and install molds and profile the new line of bottles. 
 
 ## Profiling 
 Profiling is the process through which the thickness of the bottle is determined at each height of the bottle. If you didn't know, bottles are not one continuous width when the parison is extruded. No, the parison has a variable width to ensure that there is no cracking at corners, the threads on the cap can hold, and the flat sides of the bottle remain so. Profiling is a complex task typically achieved through days of trial and error, especially when you're working with machinery built in the early 1950's. Once the bottle is profiled, the settings are locked in and qualification begins!
@@ -32,4 +34,4 @@ Qualification is a rigorous process by which the factory must prove that the bot
 We were able to complete this full process for line 5 before my summer came to an end, but line 2 was just barely installed before I left. Today, both lines are up and running and pumping out bottles for BP, Valvoline, Idemitsu Kosan, and more.
 
 
-{% include gallery caption="Line 5 in our Bowling Green plant" %}
+{% include gallery caption="Line 5 of Bowling Green plant" %}
